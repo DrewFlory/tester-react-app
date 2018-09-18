@@ -1,0 +1,38 @@
+
+
+.time {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 40%;
+  font-family: 'Wallpoet', cursive;
+  color: rgb(15, 230, 15);
+}
+
+.body {
+  margin-top: -2rem;
+  height: 108vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.button {
+  height: 3rem;
+  width: 8rem;
+  color: rgb(15, 230, 15);
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 25%;
+  margin-left: 42.5%;
+  border-radius: 20px;
+  border: 1px solid rgb(15, 230, 15);
+  font-family: 'Julius Sans One', sans-serif;
+  outline: none;
+}
+
+.button:hover {
+  background-color: rgba(15, 230, 15, 0.5);
+  color: white;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  border: 1px solid black;
+}
